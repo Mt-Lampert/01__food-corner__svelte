@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<main>
+<main data-testid="main">
   <h1 class="title">Hello, Food Corner Lovers</h1>
 
   <div class="hero is-info">

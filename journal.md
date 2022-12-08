@@ -1,3 +1,7 @@
+## 2022-12-08 21:10
+
+Installed the testing environment strictly following the official documentation. Paid off very well.
+
 ## 2022-12-08 17:45
 
 Personal Resumee: Installing Bulma into a Vite -- Svelte project is best done like this:
