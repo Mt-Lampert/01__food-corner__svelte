@@ -1,6 +1,28 @@
+## Good to know
+
+- Svelte material icons can be found [here.](https://github.com/ramiroaisen/svelte-material-icons#readme)
+
+## TODO (some time)
+
+- [x] ~~Research about Icons in Svelte~~
+
+
+## 2022-12-09 08:30
+
+### TODO ROUTING
+
+
+- [x] ~~install `svelte-routing`~~
+- [x] ~~outline the routes in a basic fashion~~
+- [x] ~~check the routes in the browser.~~
+- [x] ~~report and commit.~~
+
+__UPDATE:__ All went well. Routes are fine.
+
+
 ## 2022-12-08 21:10
 
-Installed the testing environment strictly following the official documentation. Paid off very well.
+Installed the testing environment strictly following the official documentation. Paid off very well.` 
 
 ## 2022-12-08 17:45
 
