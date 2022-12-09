@@ -5,9 +5,17 @@
 ## TODO (some time)
 
 - [x] ~~Research about Icons in Svelte~~
+- [ ] Do the footer with icons.
+- [ ] Do the landing page
+- [ ] Do the Menu
 
 
-## 2022-12-09
+## 2022-12-09 20:15
+
+Finishing a successful day. I got the routing and the linking just as planned, learned a few things, learned one important hack and have a well-earned Feierabend. Very nice!
+
+
+## 2022-12-09 18:156
 
 Vitest with Svelte requires new ways to test components that have a  `<Link />` element inside. They need a `<Router />` environment in order to work. If not, they throw an error like this:
 
