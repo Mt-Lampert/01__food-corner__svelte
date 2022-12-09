@@ -7,6 +7,29 @@
 - [x] ~~Research about Icons in Svelte~~
 
 
+## 2022-12-09
+
+Vitest with Svelte requires new ways to test components that have a  `<Link />` element inside. They need a `<Router />` environment in order to work. If not, they throw an error like this:
+
+```
+Cannot destructure property 'base' of 'getContext(...)' as it is undefined.
+```
+
+The solution I found is the simplest of wrappers:
+
+```javascript
+<script>
+  import { Router } from 'svelte-routing'
+  import Navbar from './Navbar.svelte'
+</script>
+
+<Router>
+  <Navbar />
+</Router>
+```
+
+Now I could test the wrapped `<Navbar />`. Vitest was happy.
+
 ## 2022-12-09 08:30
 
 ### TODO ROUTING
