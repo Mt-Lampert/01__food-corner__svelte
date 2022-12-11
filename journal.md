@@ -9,8 +9,22 @@
 - [x] ~~Do the landing page~~
 - [x] ~~Do the Menu~~
 
+## 2022-12-11: 21:45
 
-## 2022-12-11
+I did it! After finding my workflow (see below), porting the React version to Svelte version was a matter of only a few hours, including porting all the tests.
+
+### The workflow:
+
+- Port the `.spec.jsx` to a `.spec.js` file mirroring the directory.
+    - Always add `import "@testing-library/jest-dom";` to the spec file.
+    - Change `render(<Component />)` to `render(Component)`
+
+### The hardest thing
+
+The hardest thing was finding a way to make the sizes of the footer icons responsive. I finally chose "200%" as the size and got the best result. But 200% of what? Interesting question. Some day I hope to find out. I think it's 200% of the size of its parent container. Makes the best bet.
+
+
+## 2022-12-11 19:45
 
 the `/src/variables.scss` files makes uniform project-wide formatting sooo easy!
 
