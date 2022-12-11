@@ -18,9 +18,9 @@ describe("Menus Page", () => {
     expect(menuContainer).toBeInTheDocument();
   });
 
-  it.skip("has a number of menu items", () => {
-    const menuems = screen.getAllByTestId("mi-container");
-    expect(menuems.length).toBe(6);
+  it("has a number of menu items", () => {
+    const menuitems = screen.getAllByTestId("mi-container");
+    expect(menuitems.length).toBe(6);
     const masalaDosa = screen.getByRole("heading", { name: "Masala Dosa" });
     expect(masalaDosa).toBeInTheDocument();
   });

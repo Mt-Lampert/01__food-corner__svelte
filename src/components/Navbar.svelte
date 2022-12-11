@@ -10,6 +10,10 @@
   ];
 
   let navbarMenu;
+
+  function burgerHandler() {
+    navbarMenu.classList.toggle("is-active");
+  }
 </script>
 
 <nav class="navbar is-dark">
@@ -19,19 +23,19 @@
         <img src={logo} width="48" alt="The Logo" />
       </Link>
     </figure>
-    <!-- <a
+    <a
       href="#/"
       role="button"
       class="navbar-burger"
       aria-label="menu"
       aria-expanded="false"
       data-target="navbar-burger"
-      onClick={burgerHandler}
+      on:click|preventDefault={burgerHandler}
     >
       <span aria-hidden="true" />
       <span aria-hidden="true" />
       <span aria-hidden="true" />
-    </a> -->
+    </a>
   </div>
   <div bind:this={navbarMenu} class="navbar-menu">
     <div class="navbar-end" data-testid="navbar-end">
@@ -44,7 +48,12 @@
   </div>
 </nav>
 
-
 <style lang="scss">
-  a{ color: hsl(0, 0%, 91%)}
+  a {
+    color: hsl(0, 0%, 91%);
+  }
+
+  .navbar-end {
+    background-color: hsl(0, 0%, 21%);
+  }
 </style>
