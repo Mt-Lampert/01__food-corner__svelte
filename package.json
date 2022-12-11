@@ -23,6 +23,8 @@
     "vitest": "^0.25.6"
   },
   "dependencies": {
+    "@mdi/font": "^7.0.96",
+    "svelte-material-icons": "^2.0.4",
     "svelte-routing": "^1.6.0"
   }
 }
