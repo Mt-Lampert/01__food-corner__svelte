@@ -5,9 +5,24 @@
 ## TODO (some time)
 
 - [x] ~~Research about Icons in Svelte~~
-- [ ] Do the footer with icons.
-- [ ] Do the landing page
-- [ ] Do the Menu
+- [x] ~~Do the footer with icons.~~
+- [x] ~~Do the landing page~~
+- [x] ~~Do the Menu~~
+
+
+## 2022-12-11
+
+the `/src/variables.scss` files makes uniform project-wide formatting sooo easy!
+
+Once you do this in your component file, ...
+
+```xml
+<style lang="scss">
+/* ... */
+</style>
+```
+
+... all the settings we made in this file can be applied here.
 
 
 ## 2022-12-09 20:15
