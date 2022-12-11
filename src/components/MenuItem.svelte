@@ -5,7 +5,11 @@
 <div class="mi-container card" data-testid="mi-container">
   <div class="card-image pt-5">
     <figure class="has-text-centered">
-      <img src={dish.image} width="300" alt={dish.name + " image"} />
+      <img
+        src={"images/" + dish.image}
+        width="300"
+        alt={dish.name + " image"}
+      />
     </figure>
   </div>
   <div class="card-content">
@@ -19,3 +23,4 @@
     </div>
   </div>
 </div>
+
