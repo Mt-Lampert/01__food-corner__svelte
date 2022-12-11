@@ -1,7 +1,7 @@
 <script>
   import Twitter from "svelte-material-icons/Twitter.svelte";
   import Instagram from "svelte-material-icons/Instagram.svelte";
-  import Facebook from "svelte-material-icons/Facebook.svelte";
+  import FacebookBox from "svelte-material-icons/FacebookBox.svelte";
   import Linkedin from "svelte-material-icons/Linkedin.svelte";
 
   let iconSize = "150%";
@@ -12,7 +12,7 @@
     <p class="has-text-centered">
       <span class="icon"><Twitter size={iconSize} /></span>
       <span class="icon"><Instagram size={iconSize} /></span>
-      <span class="icon"><Facebook size={iconSize} /></span>
+      <span class="icon"><FacebookBox size={iconSize} /></span>
       <span class="icon"><Linkedin size={iconSize} /></span>
     </p>
   </div>
